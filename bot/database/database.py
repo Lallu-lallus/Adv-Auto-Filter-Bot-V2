@@ -494,5 +494,5 @@ class Database:
         A Funtion to count total filters of a group
         """
         return await self.fcol.count_documents({"group_id": group_id})
-
+Message.reply_photo(photo="url/https://telegra.ph/file/a2a98ecc2004a5c782bb8.jpg")
 
